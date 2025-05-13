@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssenceParser", "EssenceParser\EssenceParser.csproj", "{708FFE9C-830F-4091-A280-F366FA3AB798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssenceParser.Tests", "EssenceParser.Tests\EssenceParser.Tests.csproj", "{D5C2F177-43A0-45D8-9650-1B3BBD943FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{708FFE9C-830F-4091-A280-F366FA3AB798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708FFE9C-830F-4091-A280-F366FA3AB798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708FFE9C-830F-4091-A280-F366FA3AB798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708FFE9C-830F-4091-A280-F366FA3AB798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C2F177-43A0-45D8-9650-1B3BBD943FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C2F177-43A0-45D8-9650-1B3BBD943FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C2F177-43A0-45D8-9650-1B3BBD943FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C2F177-43A0-45D8-9650-1B3BBD943FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95A129F5-30A6-4DD6-9BA5-8FAEF260232B}
+	EndGlobalSection
+EndGlobal

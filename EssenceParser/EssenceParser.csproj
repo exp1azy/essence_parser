@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Title>EssenceParser</Title>
+	<Authors>exp1azy</Authors>
+	<Description>EssenceHtmlParser is a small C# library for parsing, traversing, and transforming HTML documents into structured, strongly typed content trees. It provides an object-oriented API for working with HTML as a tree of ContentNode objects, allowing transformation, filtering, serialization, and semantic analysis of HTML content.</Description>
+	<PackageProjectUrl>https://github.com/exp1azy/essence_parser</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/exp1azy/essence_parser</RepositoryUrl>
+	<PackageTags>html;parser;parse;dom;tree;node</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.17.1" />
+    <PackageReference Include="AngleSharp.Css" Version="0.17.0" />
+  </ItemGroup>
+
+</Project>
